@@ -2,10 +2,10 @@
 export class LoginPage {
 
     elementLogin = {
-        email: () => cy.get('[placeholder="Username"]'),
-        passWord: () => cy.get('[placeholder="Password"]'),
+        email: () => cy.get('[name="identity"]'),
+        passWord: () => cy.get('[name="password"]'),
         checkBox: () => cy.get('[class ="checkbox pull-left"]'),
-        btnLogin: () => cy.get('button').contains('Login')
+        btnLogin: () => cy.get('button[type="submit"]').contains("Login")
     }
 
     loginToHomePage(email, passWord) {
