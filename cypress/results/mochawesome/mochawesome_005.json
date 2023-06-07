@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-07T02:54:24.788Z",
+    "end": "2023-06-07T02:54:43.303Z",
+    "duration": 18515,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "aeee9a91-9908-42ca-b150-68fd49f07483",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test06.cy.js",
+      "file": "cypress\\e2e\\test06.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f85e6b73-0572-4e0d-97b2-6cb32b3841bb",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC06: Verify Print Barcode/Label page",
+              "fullTitle": "template spec TC06: Verify Print Barcode/Label page",
+              "timedOut": null,
+              "duration": 15481,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToPrintBarCode();\nprintBarcodePage.verifyPrintBarcodeElement();",
+              "err": {},
+              "uuid": "cd7125aa-e8ae-4fae-aed6-c534c0df811a",
+              "parentUUID": "f85e6b73-0572-4e0d-97b2-6cb32b3841bb",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cd7125aa-e8ae-4fae-aed6-c534c0df811a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15481,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-07T02:54:04.719Z",
+    "end": "2023-06-07T02:54:22.160Z",
+    "duration": 17441,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1ceba11d-441e-4f3b-a4ac-f293b605df2f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test05.cy.js",
+      "file": "cypress\\e2e\\test05.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "03c9fc8e-325a-4a2c-b967-61a52c033aa4",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC05 : Verify Edit product",
+              "fullTitle": "template spec TC05 : Verify Edit product",
+              "timedOut": null,
+              "duration": 13957,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToListProduct();\nlistProductPage.serachItemProoduct(\"Mouse\");\nlistProductPage.clickToItemProduct(\"Mouse\");\ndetailProduct.goToEditPage();\n// verify \neditProductPage.verifyEditProductPage();",
+              "err": {},
+              "uuid": "1df9227f-c759-471f-89e4-ece3ed9e53b6",
+              "parentUUID": "03c9fc8e-325a-4a2c-b967-61a52c033aa4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1df9227f-c759-471f-89e4-ece3ed9e53b6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 13957,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
