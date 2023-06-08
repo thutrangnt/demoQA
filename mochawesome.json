@@ -1,11 +1,11 @@
 {
   "stats": {
-    "suites": 19,
-    "tests": 19,
-    "passes": 19,
+    "suites": 22,
+    "tests": 22,
+    "passes": 22,
     "pending": 0,
     "failures": 0,
-    "testsRegistered": 19,
+    "testsRegistered": 22,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -13,8 +13,8 @@
     "skipped": 0,
     "hasSkipped": false,
     "start": "2023-06-08T02:03:11.012Z",
-    "end": "2023-06-08T02:18:00.437Z",
-    "duration": 889425
+    "end": "2023-06-08T02:23:07.314Z",
+    "duration": 1196302
   },
   "results": [
     {
@@ -1047,6 +1047,180 @@
           "pending": [],
           "skipped": [],
           "duration": 9113,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "ae5688f6-3f67-4427-be36-f937a5b6c680",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test01.cy.js",
+      "file": "cypress\\e2e\\test01.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "130caf34-4026-40fd-ad20-ed9a6c6a9185",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify login page",
+              "fullTitle": "template spec verify login page",
+              "timedOut": null,
+              "duration": 2408,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.verifyLoginPage();",
+              "err": {},
+              "uuid": "40b8b45a-47e5-47ca-99b4-8a37bbd584f4",
+              "parentUUID": "130caf34-4026-40fd-ad20-ed9a6c6a9185",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "40b8b45a-47e5-47ca-99b4-8a37bbd584f4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2408,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "c402c321-1328-4214-8c4a-4acbe0418bb8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test02.cy.js",
+      "file": "cypress\\e2e\\test02.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9b179d5e-f1b2-4ed5-b007-e3f757af8d5a",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify login success",
+              "fullTitle": "template spec verify login success",
+              "timedOut": null,
+              "duration": 5182,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.verifyLoginSuccess();",
+              "err": {},
+              "uuid": "0ffd2e19-2825-4be6-b6e4-24c62af1acba",
+              "parentUUID": "9b179d5e-f1b2-4ed5-b007-e3f757af8d5a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0ffd2e19-2825-4be6-b6e4-24c62af1acba"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5182,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "8f8ca0c7-432a-415a-85ed-d062d672efc1",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test03.cy.js",
+      "file": "cypress\\e2e\\test03.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0ac929c6-efdf-473e-b2e7-2926bd7bd7ac",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC03 : verify list products",
+              "fullTitle": "template spec TC03 : verify list products",
+              "timedOut": null,
+              "duration": 8632,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToListProduct();\nlistProductPage.verifyListProductPage();",
+              "err": {},
+              "uuid": "afba91ca-01ef-4306-a8de-3f083a19626c",
+              "parentUUID": "0ac929c6-efdf-473e-b2e7-2926bd7bd7ac",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "afba91ca-01ef-4306-a8de-3f083a19626c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8632,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
