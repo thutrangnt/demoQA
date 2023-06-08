@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:53:48.016Z",
-    "end": "2023-06-07T02:54:02.235Z",
-    "duration": 14219,
+    "start": "2023-06-08T02:03:48.344Z",
+    "end": "2023-06-08T02:03:59.613Z",
+    "duration": 11269,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "518bb47a-7e7f-40a0-8233-d4de6b750d2e",
+      "uuid": "b147825f-fa0d-47b0-9b44-0f1092eacdf1",
       "title": "",
       "fullFile": "cypress\\e2e\\test04.cy.js",
       "file": "cypress\\e2e\\test04.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "3a0d86b5-9b6d-44fc-88a8-10861b49e884",
+          "uuid": "b5b249e5-216a-41ce-87bc-a431463c02ff",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "TC04: Verify view product detail",
               "fullTitle": "template spec TC04: Verify view product detail",
               "timedOut": null,
-              "duration": 11845,
+              "duration": 8908,
               "state": "passed",
-              "speed": "slow",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToListProduct();\nlistProductPage.clickToItemProduct(\"Lemon\");\n// verify detail Lemon\ndetailProduct.verifyDetailProduct();",
               "err": {},
-              "uuid": "f5316cfe-8165-4307-a1b1-008639089369",
-              "parentUUID": "3a0d86b5-9b6d-44fc-88a8-10861b49e884",
+              "uuid": "c85be779-34bf-4d6c-a2dd-68b1205bb605",
+              "parentUUID": "b5b249e5-216a-41ce-87bc-a431463c02ff",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "f5316cfe-8165-4307-a1b1-008639089369"
+            "c85be779-34bf-4d6c-a2dd-68b1205bb605"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 11845,
+          "duration": 8908,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

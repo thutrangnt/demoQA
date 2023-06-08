@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-08T02:15:37.804Z",
+    "end": "2023-06-08T02:15:46.754Z",
+    "duration": 8950,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "722e4fe1-71c8-452e-95a8-70c8a061ce2e",
+      "title": "",
+      "fullFile": "cypress\\e2e\\test02.cy.js",
+      "file": "cypress\\e2e\\test02.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "507fe27a-b42f-4fa5-b758-392811b90478",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verify login success",
+              "fullTitle": "template spec verify login success",
+              "timedOut": null,
+              "duration": 5365,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.verifyLoginSuccess();",
+              "err": {},
+              "uuid": "f994cfe8-793e-4d15-a25b-aaf603565739",
+              "parentUUID": "507fe27a-b42f-4fa5-b758-392811b90478",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f994cfe8-793e-4d15-a25b-aaf603565739"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5365,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

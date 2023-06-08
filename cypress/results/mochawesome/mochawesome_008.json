@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:55:22.133Z",
-    "end": "2023-06-07T02:55:32.860Z",
-    "duration": 10727,
+    "start": "2023-06-08T02:05:03.303Z",
+    "end": "2023-06-08T02:05:12.219Z",
+    "duration": 8916,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "7dd3d77e-a733-4546-b57a-77ba45a38b4f",
+      "uuid": "7df377e5-4e32-4dc0-97ba-fdcf537104ce",
       "title": "",
       "fullFile": "cypress\\e2e\\test09.cy.js",
       "file": "cypress\\e2e\\test09.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "8b7de119-4cbc-473d-9070-55bf589e12d3",
+          "uuid": "12f390ff-f00c-4708-be97-c3ab39da6ba9",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verify Purchases List",
               "fullTitle": "template spec Verify Purchases List",
               "timedOut": null,
-              "duration": 7935,
+              "duration": 6083,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToListPurchase();\nlistPurchasesPage.verifyFormatDateTimeForRow(1);\nlistPurchasesPage.verifyReferenceNoOrderByDesc();",
               "err": {},
-              "uuid": "00629464-2d6d-4c81-aafe-d0d19e2c49d9",
-              "parentUUID": "8b7de119-4cbc-473d-9070-55bf589e12d3",
+              "uuid": "a57e505d-017d-4138-8479-3fc63ebf60a2",
+              "parentUUID": "12f390ff-f00c-4708-be97-c3ab39da6ba9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "00629464-2d6d-4c81-aafe-d0d19e2c49d9"
+            "a57e505d-017d-4138-8479-3fc63ebf60a2"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7935,
+          "duration": 6083,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

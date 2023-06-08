@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:55:35.415Z",
-    "end": "2023-06-07T02:55:59.927Z",
-    "duration": 24512,
+    "start": "2023-06-08T02:05:14.633Z",
+    "end": "2023-06-08T02:05:32.345Z",
+    "duration": 17712,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "30213dce-3dac-4261-b666-49f099db0b7b",
+      "uuid": "83f17f82-6a30-4c9f-98bc-a2d6216e7b7d",
       "title": "",
       "fullFile": "cypress\\e2e\\test10.cy.js",
       "file": "cypress\\e2e\\test10.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4de497a2-cfee-4ee3-92a8-a80c2a06f679",
+          "uuid": "284d289a-31ba-453f-b67f-fc89b19de16b",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "TC10: Verify add product at PurchasePage successfully",
               "fullTitle": "template spec TC10: Verify add product at PurchasePage successfully",
               "timedOut": null,
-              "duration": 21926,
+              "duration": 15171,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToAddPurschases();\naddPurchasePage.goToAddProductPage();\naddProductPage.addProduct(\"Quan\", \"NTT126\", \"quan\", \"1.44\", \"1.22\");\nlistProductPage.verifyListProductPage();",
               "err": {},
-              "uuid": "862bd6bb-5fea-4b69-8efc-6cc322489e2f",
-              "parentUUID": "4de497a2-cfee-4ee3-92a8-a80c2a06f679",
+              "uuid": "18fb9933-88f0-4fe1-9acc-4fb3d2c6f3a9",
+              "parentUUID": "284d289a-31ba-453f-b67f-fc89b19de16b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "862bd6bb-5fea-4b69-8efc-6cc322489e2f"
+            "18fb9933-88f0-4fe1-9acc-4fb3d2c6f3a9"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 21926,
+          "duration": 15171,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

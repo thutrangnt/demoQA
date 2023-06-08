@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "delete:reports": "del cypress/results/* || true",
+    "delete:reports": "rm mochawesome-report/mochawesome.html",
     "prereport": "npm run delete:reports",
     "mochawesome:merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\"> mochawesome.json && npx marge mochawesome.json",
-    "junit:merge":"npx junit-merge -d cypress/results/junit -o cypress/results/junit/result.xml", 
-    "cy:run": "npx cypress run && npm run junit:merge && npm run mochawesome:merge",
-    "cy:chrome": "cypress run --browser chrome --spec cypress/e2e/*.cy.js"
-
+    "junit:merge": "npx junit-merge -d cypress/results/junit -o cypress/results/junit/result.xml",
+    "cy:run": "npm run delete && npx cypress run && npm run mochawesome:merge",
+    "cy:chrome": "cypress run --browser chrome --spec cypress/e2e/*.cy.js",
+    "delete": "del-cli mochawesome-report || true"
+  
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "@cypress/xpath": "^2.0.3",
     "cypress": "^12.13.0",
     "cypress-multi-reporters": "^1.6.3",
+    "del-cli": "^5.0.0",
     "junit-merge": "^2.0.0",
     "mocha-junit-reporter": "^2.2.0",
     "mochawesome": "^7.1.3",

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:54:45.747Z",
-    "end": "2023-06-07T02:55:00.945Z",
-    "duration": 15198,
+    "start": "2023-06-08T02:04:28.131Z",
+    "end": "2023-06-08T02:04:42.343Z",
+    "duration": 14212,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "19b733bc-da6f-4f9b-b5a5-e674fa00589f",
+      "uuid": "7ec152c5-3444-4b01-baad-b3d2ec4c5cc5",
       "title": "",
       "fullFile": "cypress\\e2e\\test07.cy.js",
       "file": "cypress\\e2e\\test07.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "28edf8ac-a660-45d1-b631-1e8b9db0b68e",
+          "uuid": "954c0763-d637-4ce2-8c72-38bcdfd26407",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "TC07 : Verify create Print Barcode/Label successfully",
               "fullTitle": "template spec TC07 : Verify create Print Barcode/Label successfully",
               "timedOut": null,
-              "duration": 11956,
+              "duration": 11917,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToPrintBarCode();\nprintBarcodePage.addItemProduct('Kiwi');\nprintBarcodePage.getStyleOption('18 per sheet (a4) (2.5\" x 1.835\")');\nprintBarcodePage.checkPrintCheckBox();\nprintBarcodePage.clickUpdate();\nprintBarcodePage.verifyCreatePrintBarcodeSuccessfully();",
               "err": {},
-              "uuid": "bcdcbc8d-0e8a-476e-aacc-6cac9dc9a32e",
-              "parentUUID": "28edf8ac-a660-45d1-b631-1e8b9db0b68e",
+              "uuid": "ea4db676-17e8-45b0-9fde-383699336912",
+              "parentUUID": "954c0763-d637-4ce2-8c72-38bcdfd26407",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "bcdcbc8d-0e8a-476e-aacc-6cac9dc9a32e"
+            "ea4db676-17e8-45b0-9fde-383699336912"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 11956,
+          "duration": 11917,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

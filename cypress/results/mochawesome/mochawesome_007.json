@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:55:03.481Z",
-    "end": "2023-06-07T02:55:18.489Z",
-    "duration": 15008,
+    "start": "2023-06-08T02:04:44.847Z",
+    "end": "2023-06-08T02:04:58.855Z",
+    "duration": 14008,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8c9bf304-48ec-469f-8d99-39cd6ee33116",
+      "uuid": "88affb96-9820-4298-9e9a-6323195e22b6",
       "title": "",
       "fullFile": "cypress\\e2e\\test08.cy.js",
       "file": "cypress\\e2e\\test08.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "45ab0c5e-f39d-4968-bbb0-c0b419dbf6a4",
+          "uuid": "3d297889-6d76-402c-b23d-46503f5d7b5e",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "TC08: Verify add Sale successfully",
               "fullTitle": "template spec TC08: Verify add Sale successfully",
               "timedOut": null,
-              "duration": 12556,
+              "duration": 11643,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToAddSales();\naddSalesPage.selectCustomer();\naddSalesPage.addProductManually();\naddSalesPage.submitAddSale();\naddSalesPage.verifyAddSaleSuccessfully();",
               "err": {},
-              "uuid": "eee5b1b4-242c-4053-ae62-f31e5375cc67",
-              "parentUUID": "45ab0c5e-f39d-4968-bbb0-c0b419dbf6a4",
+              "uuid": "580540a9-810a-4b64-8395-416ed30eb888",
+              "parentUUID": "3d297889-6d76-402c-b23d-46503f5d7b5e",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "eee5b1b4-242c-4053-ae62-f31e5375cc67"
+            "580540a9-810a-4b64-8395-416ed30eb888"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 12556,
+          "duration": 11643,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

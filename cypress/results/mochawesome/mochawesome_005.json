@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:54:24.788Z",
-    "end": "2023-06-07T02:54:43.303Z",
-    "duration": 18515,
+    "start": "2023-06-08T02:04:16.166Z",
+    "end": "2023-06-08T02:04:25.811Z",
+    "duration": 9645,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "aeee9a91-9908-42ca-b150-68fd49f07483",
+      "uuid": "5c809945-783f-4f6d-965d-66231779e4dd",
       "title": "",
       "fullFile": "cypress\\e2e\\test06.cy.js",
       "file": "cypress\\e2e\\test06.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f85e6b73-0572-4e0d-97b2-6cb32b3841bb",
+          "uuid": "d7e851eb-9333-4f47-af1c-713514334609",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "TC06: Verify Print Barcode/Label page",
               "fullTitle": "template spec TC06: Verify Print Barcode/Label page",
               "timedOut": null,
-              "duration": 15481,
+              "duration": 7267,
               "state": "passed",
-              "speed": "slow",
+              "speed": "medium",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToPrintBarCode();\nprintBarcodePage.verifyPrintBarcodeElement();",
               "err": {},
-              "uuid": "cd7125aa-e8ae-4fae-aed6-c534c0df811a",
-              "parentUUID": "f85e6b73-0572-4e0d-97b2-6cb32b3841bb",
+              "uuid": "da2287e1-9300-446a-b72d-338ebcb8c324",
+              "parentUUID": "d7e851eb-9333-4f47-af1c-713514334609",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "cd7125aa-e8ae-4fae-aed6-c534c0df811a"
+            "da2287e1-9300-446a-b72d-338ebcb8c324"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 15481,
+          "duration": 7267,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

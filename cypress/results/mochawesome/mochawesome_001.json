@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:53:23.193Z",
-    "end": "2023-06-07T02:53:32.068Z",
-    "duration": 8875,
+    "start": "2023-06-08T02:03:22.581Z",
+    "end": "2023-06-08T02:03:30.462Z",
+    "duration": 7881,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "d806d476-d9aa-4b8d-ba50-2b5d8b96bf72",
+      "uuid": "e54f0fb6-5753-40ea-aa82-6695b24aa4d9",
       "title": "",
       "fullFile": "cypress\\e2e\\test02.cy.js",
       "file": "cypress\\e2e\\test02.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1341d84f-0a8e-472f-9a3d-a4cfa2c817f1",
+          "uuid": "75915f8f-157a-4f99-ab2e-d70a73dab64b",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "verify login success",
               "fullTitle": "template spec verify login success",
               "timedOut": null,
-              "duration": 5849,
+              "duration": 4739,
               "state": "passed",
-              "speed": "medium",
+              "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.verifyLoginSuccess();",
               "err": {},
-              "uuid": "6654df78-c844-4225-b97b-682acef8c100",
-              "parentUUID": "1341d84f-0a8e-472f-9a3d-a4cfa2c817f1",
+              "uuid": "e379a6c1-a898-469d-bddf-93c69db8ccbb",
+              "parentUUID": "75915f8f-157a-4f99-ab2e-d70a73dab64b",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "6654df78-c844-4225-b97b-682acef8c100"
+            "e379a6c1-a898-469d-bddf-93c69db8ccbb"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5849,
+          "duration": 4739,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

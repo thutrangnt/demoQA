@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-06-07T02:53:34.747Z",
-    "end": "2023-06-07T02:53:45.517Z",
-    "duration": 10770,
+    "start": "2023-06-08T02:03:33.093Z",
+    "end": "2023-06-08T02:03:45.721Z",
+    "duration": 12628,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "1fe2207f-a99d-44a2-b28b-bd1ef1d64237",
+      "uuid": "2918a8cc-2151-4492-b483-14bd5b6089b9",
       "title": "",
       "fullFile": "cypress\\e2e\\test03.cy.js",
       "file": "cypress\\e2e\\test03.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "c4bfa7b4-a503-406a-99db-74d1bb42ddd7",
+          "uuid": "a8763c6b-fd84-4dd0-b54f-c4e404b72374",
           "title": "template spec",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "TC03 : verify list products",
               "fullTitle": "template spec TC03 : verify list products",
               "timedOut": null,
-              "duration": 8354,
+              "duration": 9410,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "loginPage.loginToHomePage('admin@tecdiary.com', '12345678');\nhomePage.goToListProduct();\nlistProductPage.verifyListProductPage();",
               "err": {},
-              "uuid": "7711c561-bc70-4f59-a9af-4df839f6fa4a",
-              "parentUUID": "c4bfa7b4-a503-406a-99db-74d1bb42ddd7",
+              "uuid": "62f70038-4f06-491c-aa64-7e1f94d6ee12",
+              "parentUUID": "a8763c6b-fd84-4dd0-b54f-c4e404b72374",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "7711c561-bc70-4f59-a9af-4df839f6fa4a"
+            "62f70038-4f06-491c-aa64-7e1f94d6ee12"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 8354,
+          "duration": 9410,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
